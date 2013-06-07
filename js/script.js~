@@ -1,0 +1,11 @@
+$(document).ready(function() { 
+    $(".group").click(function () {
+        $(this).fadeOut("slow");
+    });
+    $(".group").mouseleave(function () {
+        $(this).fadeIn("slow");
+    });
+    $(".circle2").click(function () {
+        $(this).css({background : "#585858"});
+    });
+});
